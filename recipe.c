@@ -8,7 +8,7 @@ int main(void)
     printf("\n");
     printf("1 1/2cups\t graham cracker crumbs (about 24 full-sized graham crackers\n");
     printf("1/2cup\t butter or margarine, melted\n");
-    printf("1 can\t(12 ounces/340 g) sweetened condensed milk\n");
+    printf("1 can../re\t(12 ounces/340 g) sweetened condensed milk\n");
     printf("1 cup\tflaked coconut\n");
     printf("1 cup\tdried cranberries\n");
     printf("2 cups\tvanilla chips\n");
