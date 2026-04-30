@@ -2,16 +2,19 @@
 
 int main(void)
 {
-int minutes, hour;
-int time, finish;
-printf("Enter minures:\n");
-scanf("%d", &hour);
-scanf("%d", &minutes);
-time = (minutes)/60;
-printf("Enter hour:\n");
-scanf("%d", &minutes)
-
-
+int total_minutes;
+printf("Movie running time:");
+scanf("%d", &total_minutes);
+int start_h;
+int start_m;
+printf("Start time:");
+scanf("%d %d", &start_h, &start_m);
+int hours = total_minutes / 60;
+int min= total_minutes % 60;
+int end_h = start_h+ hours;
+int end_m =start_m + min;
+printf("The move will last %d hr and %d min.\n", hours, min);
+printf("End time: %d:%d \n", end_h, end_m);
 
 
 
