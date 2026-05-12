@@ -11,7 +11,7 @@ int main(void){
   int user_response;
   scanf("%d", &user_response);
 
-  if (user_response ==1){}
+  if (user_response ==1){
 
     c_to_f();
     f_to_c();
